@@ -8,6 +8,36 @@
   src: url('SudegnakNo2.otf');
 }
 
+@media only screen and (max-width: 980px) and (min-width: 821px) {
+  body {
+    font-family: Times New Roman;
+  }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+  body {
+    font-family: sans-serif;
+  }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 501px) {
+  body {
+    font-family: Helvetica;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+  body {
+    font-family: Courier;
+  }
+}
+
+@media only screen and (max-width: 340px) and (min-width: 5px)  {
+  body {
+    font-family: monospace;
+  }
+}
+
 .site-name {
 	float: left;
   text-shadow: 2px 2px #02010a;
@@ -28,7 +58,7 @@ header {
 
 ul{
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 li{

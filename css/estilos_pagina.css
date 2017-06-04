@@ -1,23 +1,32 @@
-#imagenes > div{
+#imagenes {
+	background-color: #d5c75f;
+}
+
+.efecto1 {
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.efecto2 {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.efecto3 {
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+
+.seccion > div {
   background-color: #d5c75f;
-  border: 1px;
-  text-align: center;
+	text-align: center;
+	width: 33.33333%;
 	display: block;
 	flex-direction: row;
   float: left;
 }
 
-.una > div > figure > img{
-  width: 280px;
-  height: 192px;
-}
-
-.dos > div > figure > img{
-  width: 280px;
-  height: 192px;
-}
-
-.tres > div > figure > img{
-  width: 280px;
-  height: 192px;
+.seccion > div > figure > img{
+  width: 391px;
+  height: 220px;
 }
