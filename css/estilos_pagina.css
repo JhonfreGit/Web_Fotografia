@@ -1,0 +1,23 @@
+#imagenes > div{
+  background-color: #d5c75f;
+  border: 1px;
+  text-align: center;
+	display: block;
+	flex-direction: row;
+  float: left;
+}
+
+.una > div > figure > img{
+  width: 280px;
+  height: 192px;
+}
+
+.dos > div > figure > img{
+  width: 280px;
+  height: 192px;
+}
+
+.tres > div > figure > img{
+  width: 280px;
+  height: 192px;
+}
